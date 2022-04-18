@@ -37,8 +37,9 @@ class _HomePageState extends State<HomePage> {
                       style: const TextStyle(color: Colors.white),
                     ),
                     selected: _selectedCategory.contains(category),
-                    selectedColor: Colors.blue,
+                    selectedColor: Colors.green,
                     checkmarkColor: Colors.white,
+                    backgroundColor: Colors.orange,
                     onSelected: (bool selected) {
                       selected
                           ? _selectedCategory.add(category)
